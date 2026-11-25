@@ -15,6 +15,7 @@ ITEMS={'FI':list(range(11,15)),'FD':list(range(15,18)),'PA':list(range(18,22))}
 LABEL={'FI':'Family influence','FD':'Financial dependence','PA':'Purchase decision autonomy'}
 COLS=['FI1','FI2','FI3','FI4','FD1','FD2','FD3','PA1','PA2','PA3','PA4']
 END=pd.Timestamp('2026-11-02 23:59:59.999')
+print("gekki world")
 
 def alpha(x):
     x=x.dropna().astype(float); k=x.shape[1]
